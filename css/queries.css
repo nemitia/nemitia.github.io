@@ -1,186 +1,179 @@
 /* Tablets to Computer 1025 to 1279px */
 
 @media only screen and (max-width: 1279px) {
-    .header {
-        flex-flow: column;
-
-    }
-    .logo {
-        align-self: flex-start;
-    }
-    .logo img {
-        max-width: 85%;
-        max-height: 85%;
-    }
-    .container-bubble {
-        align-self: center;
-        max-width: 60%;
-    }
-    p.bubble {
-        font-size: 1.8rem;
-    }
-    .footer {
-        font-size: 1.4rem;
-    }
+  .header {
+    flex-flow: column;
+  }
+  .logo {
+    align-self: flex-start;
+  }
+  .logo img {
+    max-width: 85%;
+    max-height: 85%;
+  }
+  .container-bubble {
+    align-self: center;
+    max-width: 60%;
+  }
+  p.bubble {
+    font-size: 1.8rem;
+  }
+  .footer {
+    font-size: 1.4rem;
+  }
 }
 
 /* SMALL-BIG Tablets 800-1024px */
 
 @media only screen and (max-width: 1024px) {
-    .header {
-        flex-flow: column;
-        height: 48vh;
-    }
-    .logo {
-        align-self: flex-start;
-        flex: 25%;
-    }
-    .logo img {
-        max-width: 75%;
-        max-height: 75%;
-    }
-    .container-bubble {
-        align-self: flex-end;
-        max-width: 73%;
-    }
-    p.bubble {
-        font-size: 1.5rem;
-    }
-    .footer {
-        font-size: 1.2rem;
-    }
+  .header {
+    height: 48vh;
+  }
+  .logo {
+    border: 3px solid white;
+    align-self: flex-start;
+  }
+  .logo img {
+    max-width: 75%;
+    max-height: 75%;
+  }
+  .container-bubble {
+    align-self: flex-end;
+    max-width: 50vw;
+  }
+  p.bubble {
+    font-size: 1.5rem;
+  }
+  .footer {
+    font-size: 1.3rem;
+  }
 }
 
 /* SMALL Phones/Tablets 415-799px */
 
 @media only screen and (max-width: 799px) {
-    .header {
-        height: 48vh;
-    }
-    .logo {
-        align-self: flex-start;
-        margin: 10px 0 0 10px;
-    }
-    .logo img {
-        max-width: 60%;
-        max-height: 60%;
-    }
-    .container-bubble {
-        max-width: 73%;
-    }
-    p.bubble {
-        font-size: 1.1rem;
-    }
-    .attention {
-        padding-bottom: 0;
-    }
-    
-    
-    .main-nav {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    .buttons{
-        flex: auto;
-        padding-bottom: 25px;
-    }
-    
-    .nav-link img{
-        display: block;
-        margin: 10px 20px;
-        width: 70px;
-        height: 70px;
-    }
+  .header {
+    height: 48vh;
+  }
+  .logo {
+    align-self: flex-start;
+    margin: 10px 0 0 10px;
+  }
+  .logo img {
+    max-width: 60%;
+    max-height: 60%;
+  }
+  .container-bubble {
+    max-width: 73%;
+  }
+  p.bubble {
+    font-size: 1.1rem;
+  }
+  .attention {
+    padding-bottom: 0;
+  }
 
-    .zoom img:hover {
-        width: 80px;
-        height: 80px;
-    }
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .buttons {
+    flex: auto;
+    padding-bottom: 25px;
+  }
 
-    .guiding_view {
-        justify-content: center;
-        
-    }
-    
-    .footer {
-        padding: 10px 0 10px 0;
-        font-size: 1rem;
-    }
-    
+  .nav-link img {
+    display: block;
+    margin: 10px 20px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .zoom img:hover {
+    width: 80px;
+    height: 80px;
+  }
+
+  .guiding_view {
+    justify-content: center;
+  }
+
+  .footer {
+    padding: 10px 0 10px 0;
+    font-size: 1rem;
+  }
 }
 
 /* SMALL Phones 0-414px */
 
 @media only screen and (max-width: 414px) {
-    .header {
-        height: 48vh;
-    }
-    .logo {
-        align-self: flex-start;
-        margin: 10px 0 0 10px;
-    }
-    .logo img {
-        max-width: 40%;
-        max-height: 40%;
-    }
-    .container-bubble {
-        max-width: 90%;
-    }
-    
-    p.bubble {
-        line-height: 1em;
-        padding: 8px;
-        font-size: 1.1rem;
-    }
-    
-    .attention {
-        padding-bottom: 0;
-    }
-    
-    
-    .main-nav {
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    .buttons{
-        padding-bottom: 25px;
-    }
-    
-    .nav-link {
-        display: block;
-        margin: 5px 5px;
-        width: 52px;
-        justify-content: center;
-    }
+  .header {
+    height: 48vh;
+  }
+  .logo {
+    align-self: flex-start;
+    margin: 10px 0 0 10px;
+  }
+  .logo img {
+    max-width: 40%;
+    max-height: 40%;
+  }
+  .container-bubble {
+    max-width: 90%;
+  }
 
-    .nav-link img{
-        display: block;
-        margin: 5px 5px;
-        width: 50px;
-        height: 50px;
-    }
+  p.bubble {
+    line-height: 1em;
+    padding: 8px;
+    font-size: 1.1rem;
+  }
 
-    .zoom img:hover {
-        width: 60px;
-        height: 60px;
-    }
+  .attention {
+    padding-bottom: 0;
+  }
 
-    .arrow img{
-        width: 95%;
-        height: 50%;
+  .main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .buttons {
+    padding-bottom: 25px;
+  }
 
-    }
+  .nav-link {
+    display: block;
+    margin: 5px 5px;
+    width: 52px;
+    justify-content: center;
+  }
 
-    .find_us {
-        font-size: 1.3rem;
-    }
+  .nav-link img {
+    display: block;
+    margin: 5px 5px;
+    width: 50px;
+    height: 50px;
+  }
 
-    .footer {
-        font-size: 1rem;
-    }
+  .zoom img:hover {
+    width: 60px;
+    height: 60px;
+  }
+
+  .arrow img {
+    width: 95%;
+    height: 50%;
+  }
+
+  .find_us {
+    font-size: 1.3rem;
+  }
+
+  .footer {
+    font-size: 1rem;
+  }
 }
