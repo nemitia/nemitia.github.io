@@ -51,8 +51,7 @@ html {
 /*START---> SPEECH BUUBLE<---*/
 
 .container-bubble {
-  align-self: flex-start;
-  flex: 60%;
+  flex: 50vw;
   padding: 1%;
 }
 
