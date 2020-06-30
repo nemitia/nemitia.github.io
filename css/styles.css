@@ -51,7 +51,8 @@ html {
 /*START---> SPEECH BUUBLE<---*/
 
 .container-bubble {
-  flex: 50vw;
+  align-self: flex-start;
+  flex: 60%;
   padding: 1%;
 }
 
@@ -64,7 +65,7 @@ p.bubble {
   border: 8px solid #333;
   border-radius: 30px;
   padding: 20px;
-  font-size: 5vh;
+  font-size: 4vh;
   font-weight: bold;
   /* shadow property: horizontal vertical blur color*/
   box-shadow: 8px 8px 10px rgb(180, 178, 178);
@@ -177,7 +178,7 @@ p.speech:after {
 .footer {
   padding: 20px 0 20px 0;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-style: italic;
   color: white;
 }
