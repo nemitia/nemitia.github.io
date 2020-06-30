@@ -1,26 +1,26 @@
 @font-face {
     font-family: glacial-indifference-bold;
-    src: url(https://github.com/nemitia/nemitia.github.io/blob/master/fonts/GlacialIndifference-Bold.otf);
+    src: url(https://nemitia.github.io/fonts/GlacialIndifference-Bold.otf);
     font-weight: bold;
 }
 @font-face {
     font-family: glacial-indifference-bold;
-    src: url(https://github.com/nemitia/nemitia.github.io/blob/master/fonts/GlacialIndifference-Bold.ttf);
+    src: url(https://nemitia.github.io/fonts/GlacialIndifference-Bold.ttf);
     font-weight: bold;
 }
 @font-face {
     font-family: glacial-indifference-bold;
-    src: url(https://github.com/nemitia/nemitia.github.io/blob/master/fonts/GlacialIndifference-Bold.eot);
+    src: url(https://nemitia.github.io/fonts/GlacialIndifference-Bold.eot);
     font-weight: bold;
 }
 @font-face {
     font-family: glacial-indifference-bold;
-    src: url(https://github.com/nemitia/nemitia.github.io/blob/master/fonts/GlacialIndifference-Bold.woff);
+    src: url(https://nemitia.github.io/fonts/GlacialIndifference-Bold.woff);
     font-weight: bold;
 }
 @font-face {
     font-family: glacial-indifference-bold;
-    src: url(https://github.com/nemitia/nemitia.github.io/blob/master/fonts/GlacialIndifference-Bold.woff2);
+    src: url(https://nemitia.github.io/fonts/GlacialIndifference-Bold.woff2);
     font-weight: bold;
 }
 
@@ -30,7 +30,7 @@ html {
     margin: 0;
     padding: 0;
     font-family: 'glacial-indifference-bold';
-    background-image: url("https://github.com/nemitia/nemitia.github.io/blob/master/images/chirp_mini_2.jpg");
+    background-image: url("https://nemitia.github.io/images/chirp_mini_2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
