@@ -67,10 +67,11 @@
   }
   .container-bubble {
     align-self: flex-end;
-    max-width: 70vw;
+    max-width: 65vw;
   }
   p.bubble {
     font-size: 1.7rem;
+    padding: 12px;
   }
   .footer {
     font-size: 1.4rem;
