@@ -81,6 +81,7 @@
 
 @media only screen and (max-width: 799px) {
   .header {
+    flex-flow: column;
     height: 48vh;
   }
   .logo {
@@ -95,6 +96,8 @@
     max-width: 75vw;
   }
   p.bubble {
+    line-height: 1.2em;
+    padding: 8px;
     font-size: 1.5rem;
   }
   .attention {
@@ -159,8 +162,8 @@
   }
 
   p.bubble {
-    line-height: 1.4em;
-    padding: 8px;
+    line-height: 1.1em;
+    padding: 5px;
     font-size: 1.4rem;
   }
 
@@ -215,6 +218,7 @@
 
 @media only screen and (max-width: 414px) {
   .header {
+    flex-flow: column;
     height: 48vh;
   }
   .logo {
