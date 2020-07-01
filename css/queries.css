@@ -11,7 +11,7 @@
   }
   .container-bubble {
     justify-self: flex-end;
-    max-width: 70vw;
+    max-width: 75vw;
   }
   p.bubble {
     font-size: 2.3rem;
