@@ -11,10 +11,10 @@
   }
   .container-bubble {
     justify-self: flex-end;
-    max-width: 70vw;
+    max-width: 75vw;
   }
   p.bubble {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
   .find_us {
     font-size: 2.3rem;
@@ -229,9 +229,9 @@
   }
 
   p.bubble {
-    line-height: 1em;
-    padding: 8px;
-    font-size: 1.2rem;
+    line-height: 0.9em;
+    padding: 5px;
+    font-size: 1.1rem;
   }
 
   .attention {
