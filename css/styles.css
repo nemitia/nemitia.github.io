@@ -45,7 +45,7 @@ html {
 }
 
 .logo {
-  flex-basis: 28%;
+  flex: 28%;
   margin: 20px 0 0 20px;
 }
 

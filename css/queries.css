@@ -1,186 +1,372 @@
+/* Above 1280px */
+
+@media only screen and (min-width: 1280px) {
+  .header {
+    height: 40vh;
+  }
+
+  .logo img {
+    max-width: 25vw;
+    max-height: 25vh;
+  }
+  .container-bubble {
+    justify-self: flex-end;
+    max-width: 75vw;
+  }
+  p.bubble {
+    font-size: 2.3rem;
+  }
+  .find_us {
+    font-size: 2.3rem;
+  }
+
+  .Nos_style {
+    font-size: 3.5rem;
+  }
+
+  .footer {
+    font-size: 1.6rem;
+  }
+}
+
 /* Tablets to Computer 1025 to 1279px */
 
 @media only screen and (max-width: 1279px) {
-    .header {
-        flex-flow: column;
+  .header {
+    flex-flow: column;
+    height: 48vh;
+  }
 
-    }
-    .logo {
-        align-self: flex-start;
-    }
-    .logo img {
-        max-width: 85%;
-        max-height: 85%;
-    }
-    .container-bubble {
-        align-self: center;
-        max-width: 60%;
-    }
-    p.bubble {
-        font-size: 1.8rem;
-    }
-    .footer {
-        font-size: 1.4rem;
-    }
+  .logo img {
+    max-width: 20vw;
+    max-height: 20vh;
+  }
+  .container-bubble {
+    align-self: flex-end;
+    max-width: 75vw;
+  }
+  p.bubble {
+    font-size: 1.8rem;
+  }
+  .footer {
+    font-size: 1.4rem;
+  }
 }
 
 /* SMALL-BIG Tablets 800-1024px */
 
 @media only screen and (max-width: 1024px) {
-    .header {
-        flex-flow: column;
-        height: 48vh;
-    }
-    .logo {
-        align-self: flex-start;
-        flex: 25%;
-    }
-    .logo img {
-        max-width: 75%;
-        max-height: 75%;
-    }
-    .container-bubble {
-        align-self: flex-end;
-        max-width: 73%;
-    }
-    p.bubble {
-        font-size: 1.5rem;
-    }
-    .footer {
-        font-size: 1.2rem;
-    }
+  .header {
+    flex-flow: column;
+    height: 48vh;
+  }
+
+  .logo img {
+    max-width: 20vw;
+    max-height: 20vh;
+  }
+  .container-bubble {
+    align-self: flex-end;
+    max-width: 75vw;
+  }
+  p.bubble {
+    font-size: 1.8rem;
+  }
+  .footer {
+    font-size: 1.4rem;
+  }
 }
 
-/* SMALL Phones/Tablets 415-799px */
+/* SMALL Phones/Tablets 601-799px */
 
 @media only screen and (max-width: 799px) {
-    .header {
-        height: 48vh;
-    }
-    .logo {
-        align-self: flex-start;
-        margin: 10px 0 0 10px;
-    }
-    .logo img {
-        max-width: 60%;
-        max-height: 60%;
-    }
-    .container-bubble {
-        max-width: 73%;
-    }
-    p.bubble {
-        font-size: 1.1rem;
-    }
-    .attention {
-        padding-bottom: 0;
-    }
-    
-    
-    .main-nav {
-        display: flex;
-        justify-content: center;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    .buttons{
-        flex: auto;
-        padding-bottom: 25px;
-    }
-    
-    .nav-link img{
-        display: block;
-        margin: 10px 20px;
-        width: 70px;
-        height: 70px;
-    }
+  .header {
+    height: 48vh;
+  }
+  .logo {
+    align-self: flex-start;
+    margin: 10px 0 0 10px;
+  }
+  .logo img {
+    max-width: 20vw;
+    max-height: 20vh;
+  }
+  .container-bubble {
+    max-width: 75vw;
+  }
+  p.bubble {
+    font-size: 1.5rem;
+  }
+  .attention {
+    padding-bottom: 0;
+  }
 
-    .zoom img:hover {
-        width: 80px;
-        height: 80px;
-    }
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .buttons {
+    flex: auto;
+    padding-bottom: 25px;
+  }
 
-    .guiding_view {
-        justify-content: center;
-        
-    }
-    
-    .footer {
-        padding: 10px 0 10px 0;
-        font-size: 1rem;
-    }
-    
+  .nav-link img {
+    display: block;
+    margin: 10px 20px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .zoom img:hover {
+    width: 80px;
+    height: 80px;
+  }
+
+  .guiding_view {
+    justify-content: center;
+  }
+
+  .Nos_style {
+    font-size: 2.8rem;
+  }
+
+  .footer {
+    padding: 10px 0 10px 0;
+    font-size: 1.4rem;
+  }
 }
 
-/* SMALL Phones 0-414px */
+/* Phones 415-600px */
+
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 48vh;
+  }
+  .logo {
+    align-self: flex-start;
+    margin: 15px 0 0 15px;
+  }
+  .logo img {
+    max-width: 20vh;
+    max-height: 20vw;
+  }
+  .container-bubble {
+    max-width: 80vw;
+  }
+
+  p.bubble {
+    line-height: 1.4em;
+    padding: 8px;
+    font-size: 1.4rem;
+  }
+
+  .attention {
+    padding-bottom: 0;
+  }
+
+  .main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .buttons {
+    padding-bottom: 25px;
+  }
+
+  .nav-link {
+    display: block;
+    margin: 5px 5px;
+    width: 52px;
+    justify-content: center;
+  }
+
+  .nav-link img {
+    display: block;
+    margin: 5px 5px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .zoom img:hover {
+    width: 60px;
+    height: 60px;
+  }
+
+  .arrow img {
+    width: 95%;
+    height: 50%;
+  }
+
+  .find_us {
+    font-size: 1.6rem;
+  }
+
+  .footer {
+    font-size: 1.2rem;
+  }
+}
+
+/* small Phones 321-414px */
 
 @media only screen and (max-width: 414px) {
-    .header {
-        height: 48vh;
-    }
-    .logo {
-        align-self: flex-start;
-        margin: 10px 0 0 10px;
-    }
-    .logo img {
-        max-width: 40%;
-        max-height: 40%;
-    }
-    .container-bubble {
-        max-width: 90%;
-    }
-    
-    p.bubble {
-        line-height: 1em;
-        padding: 8px;
-        font-size: 1.1rem;
-    }
-    
-    .attention {
-        padding-bottom: 0;
-    }
-    
-    
-    .main-nav {
-        display: flex;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-    }
-    .buttons{
-        padding-bottom: 25px;
-    }
-    
-    .nav-link {
-        display: block;
-        margin: 5px 5px;
-        width: 52px;
-        justify-content: center;
-    }
+  .header {
+    height: 48vh;
+  }
+  .logo {
+    align-self: flex-start;
+    margin: 10px 0 0 10px;
+  }
+  .logo img {
+    max-width: 20vw;
+    max-height: 20vw;
+  }
+  .container-bubble {
+    max-width: 80vw;
+  }
 
-    .nav-link img{
-        display: block;
-        margin: 5px 5px;
-        width: 50px;
-        height: 50px;
-    }
+  p.bubble {
+    line-height: 1em;
+    padding: 8px;
+    font-size: 1.2rem;
+  }
 
-    .zoom img:hover {
-        width: 60px;
-        height: 60px;
-    }
+  .attention {
+    padding-bottom: 0;
+  }
 
-    .arrow img{
-        width: 95%;
-        height: 50%;
+  .main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .buttons {
+    padding-bottom: 25px;
+  }
 
-    }
+  .main-nav {
+    align-items: center;
+    justify-items: center;
+  }
 
-    .find_us {
-        font-size: 1.3rem;
-    }
+  .nav-link {
+    display: block;
+    margin: 5px 5px;
+    width: 48px;
+  }
 
-    .footer {
-        font-size: 1rem;
-    }
+  .nav-link img {
+    display: block;
+    margin: 5px 5px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .zoom img:hover {
+    width: 60px;
+    height: 60px;
+  }
+
+  .arrow {
+    align-self: center;
+    max-width: 50vw;
+  }
+
+  .find_us {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    font-size: 1.1rem;
+  }
+}
+
+/* smurf Phones 0-320px */
+
+@media only screen and (max-width: 320px) {
+  .header {
+    height: 50vh;
+    flex-flow: row;
+  }
+  .logo {
+    align-self: flex-start;
+    margin: 0.5vw 0 0 0.5vw;
+  }
+  .logo img {
+    max-width: 15vw;
+    max-height: 15vw;
+  }
+  .container-bubble {
+    max-width: 70vw;
+    align-self: flex-start;
+  }
+
+  p.bubble {
+    line-height: 0.8em;
+    padding: 0.4vw;
+    font-size: 0.8rem;
+    padding: 5vw;
+    border-radius: 10px;
+  }
+
+  .attention {
+    padding-bottom: 0;
+  }
+
+  .main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .buttons {
+    padding-bottom: 10px;
+  }
+
+  .nav-link {
+    display: block;
+    margin: 5px 5px;
+    width: 30px;
+    justify-content: center;
+  }
+
+  .nav-link img {
+    display: block;
+    margin: 5px 5px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .zoom img:hover {
+    width: 40px;
+    height: 40px;
+  }
+
+  .arrow {
+    align-self: center;
+    max-width: 50vw;
+  }
+
+  .find_us {
+    font-size: 1rem;
+  }
+  .Nos_style {
+    text-shadow: 2px 2px 10px #dce3d5;
+    color: #65328e;
+    font-size: 1.4rem;
+    font-weight: bolder;
+  }
+
+  .maps iframe {
+    max-width: 90vw;
+    max-height: 80vh;
+    border: 0;
+  }
+  .footer {
+    font-size: 0.8rem;
+  }
 }
